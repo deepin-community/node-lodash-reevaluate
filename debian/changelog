@@ -1,0 +1,20 @@
+node-lodash-reevaluate (3.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Add upstream/metadata
+  * Use pkg-js-tools auto install (Closes: #956503)
+  * Update VCS fields to salsa
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 12 Apr 2020 10:39:52 +0200
+
+node-lodash-reevaluate (3.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #848640)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 19 Dec 2016 11:09:22 +0530

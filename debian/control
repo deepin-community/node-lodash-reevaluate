@@ -1,0 +1,24 @@
+Source: node-lodash-reevaluate
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 12)
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-lodash-reevaluate
+Vcs-Git: https://salsa.debian.org/js-team/node-lodash-reevaluate.git
+Homepage: https://lodash.com/
+Rules-Requires-Root: no
+
+Package: node-lodash-reevaluate
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: modern build of lodash’s internal `reEvaluate` as a module
+ Most of the per method modules are available from node-lodash-packages.
+ .
+ Node.js is an event-based server-side JavaScript engine.
